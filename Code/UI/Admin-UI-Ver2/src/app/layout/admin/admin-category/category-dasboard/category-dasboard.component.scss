@@ -1,0 +1,94 @@
+.category-dashboard-content{
+
+    .mat-elevation-z8 {
+      text-align: center;
+      margin: 10px 20px;
+    
+      th {
+        font-weight: bolder;
+      }
+    
+      .center-content {
+        justify-content: center;
+      }
+    
+      .mat-header-cell {
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+    
+      .mat-cell{
+        min-width: 500px;
+        display: flex !important;
+        justify-content: center;
+      }
+    
+      .mat-table {
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 4px; /* Optional: adds rounded corners to the table */
+  
+        .mat-header-cell{
+          text-align: center;
+        }
+  
+        .actionsCell {
+          display: flex !important;
+          width: auto !important;
+          justify-content: space-evenly !important;
+          align-items: center;
+        }
+  
+      }
+    
+    }
+    
+    mat-toolbar{
+  
+      display: flex;
+      
+      align-items: center;
+  
+      justify-content: space-between;
+  
+      .functions-container{
+  
+        display: flex;
+  
+        justify-content: space-between;
+  
+        align-items: center;
+  
+        .buttons-container {
+      
+          display: flex;
+  
+          margin-right: 40px;
+        
+          button {
+            float: right;
+            margin-left: 20px;
+          }
+                
+        }
+  
+        .filtering{
+        
+          font-size: 16px !important;
+  
+          mat-form-field{
+            width: 400px;
+          }
+    
+          .matInput {
+            width: 400px;
+          }
+          
+        }
+      }
+      
+    
+    }
+    
+  }

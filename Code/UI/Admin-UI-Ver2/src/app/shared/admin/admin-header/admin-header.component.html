@@ -1,0 +1,68 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <button (click)="drawer.toggle()" mat-icon-button>
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span class="title">Boleto</span>
+    <span class="example-spacer"></span>
+    <div class="navigateBtn">
+        <button routerLink="/" mat-button>Home</button>
+        <button [matMenuTriggerFor]="lvl1master" mat-button>Master</button>
+
+        <mat-menu #lvl1master="matMenu">
+            <button [matMenuTriggerFor]="user" mat-menu-item>User</button>
+            <button mat-menu-item>Category</button>
+            <button mat-menu-item>Film</button>
+        </mat-menu>
+
+        <mat-menu #user="matMenu" xPosition="after">
+            <button mat-menu-item>Add</button>
+            <button mat-menu-item>Edit</button>
+            <button mat-menu-item>Delete</button>
+        </mat-menu>
+
+
+        <button routerLink="" mat-button>About</button>
+        <button routerLink="" mat-button>Contact</button>
+
+    </div>
+
+    <button (click)="badgeVisibility()" mat-icon-button>
+        <mat-icon matBadge="8" matBadgePosition="after" matBadgeColor="accent"
+            [matBadgeHidden]="isBadgeVisible">notifications</mat-icon>
+    </button>
+
+</mat-toolbar>
+
+<mat-drawer-container autosize>
+
+    <mat-drawer #drawer opened="true" mode="side" position="start">
+
+        <mat-nav-list>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad"><mat-icon>dashboard</mat-icon>Dashboard</button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad/user"><mat-icon>group</mat-icon>Users</button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad/cate"><mat-icon>category</mat-icon>Categories</button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button><mat-icon>movie</mat-icon>Movies</button>
+            </mat-list-item>
+
+        </mat-nav-list>
+
+    </mat-drawer>
+
+    <mat-drawer-content>
+
+        <router-outlet></router-outlet>
+
+    </mat-drawer-content>
+
+</mat-drawer-container>

@@ -1,0 +1,162 @@
+<div class="category-dashboard-content">
+  <mat-toolbar class="mt-2">
+    <mat-label class="ml-4">Category Management</mat-label>
+
+    <div class="functions-container mh-400">
+      <div class="buttons-container">
+        <button
+          mat-raised-button
+          color="accent"
+          (click)="openAddEditCategoryForm()"
+        >
+          <mat-icon>add</mat-icon>
+          <mat-label>ADD CATEGORY</mat-label>
+        </button>
+      </div>
+
+      <div class="filtering mt-3">
+        <mat-form-field class="ml-1">
+          <mat-label>Filter</mat-label>
+          <input
+            matInput
+            (keyup)="applyFilter($event)"
+            placeholder="Ex. Duy Linh"
+            #input
+          />
+        </mat-form-field>
+      </div>
+    </div>
+  </mat-toolbar>
+
+  <div class="mat-elevation-z8">
+    <div class="main-body">
+      <div class="table-container">
+        <table mat-table [dataSource]="dataSource" matSort>
+          <ng-container matColumnDef="code">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Code</th>
+            <td mat-cell *matCellDef="let row">{{ row.code }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+            <td mat-cell *matCellDef="let row">{{ row.name }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="parentCategory">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              Parent Category
+            </th>
+            <td mat-cell *matCellDef="let row">
+              <span *ngIf="row.parentCategory === null"> </span>
+              <span *ngIf="row.parentCategory !== null">{{
+                row.parentCategory.name
+              }}</span>
+            </td>
+          </ng-container>
+
+          <ng-container matColumnDef="createdAt">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              Created At
+            </th>
+            <td mat-cell *matCellDef="let row">{{ row.createdAt }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="createdBy">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              Created By
+            </th>
+            <td mat-cell *matCellDef="let row">{{ row.createdBy }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="updatedAt">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              Updated At
+            </th>
+            <td mat-cell *matCellDef="let row">{{ row.updatedAt }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="updatedBy">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              Updated By
+            </th>
+            <td mat-cell *matCellDef="let row">{{ row.updatedBy }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="status">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Status</th>
+            <td mat-cell *matCellDef="let row">
+              <span *ngIf="row.activeFlag == false">Inactive</span>
+              <span *ngIf="row.activeFlag == true">Active</span>
+            </td>
+          </ng-container>
+
+          <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef class="center-content">
+              <span style="margin-left: 75px">Actions</span>
+            </th>
+            <td mat-cell *matCellDef="let row" class="actionsCell">
+
+              <button
+                *ngIf="row.activeFlag == false"
+                mat-icon-button
+                color="accent"
+                (click)="activateCategoryById(row.id)"
+              >
+                <mat-icon>lock_open</mat-icon>
+              </button>
+
+              <button
+                *ngIf="row.activeFlag == true"
+                mat-icon-button
+                color="accent"
+                (click)="deActivateCategoryById(row.id)"
+              >
+                <mat-icon>lock</mat-icon>
+              </button>
+
+              <button
+                mat-icon-button
+                color="primary"
+                (click)="openEditCategoryForm(row)"
+              >
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button
+                mat-icon-button
+                color="warn"
+                (click)="openDeleteConfirmationForm(row)"
+              >
+                <mat-icon>delete</mat-icon>
+              </button>
+
+              <button
+              *ngIf="row.parentCategory !== null"
+                mat-icon-button
+                color="primary"
+                (click)="openDeleteConfirmationForm(row)"
+              >
+                <mat-icon style="color: yellowgreen;">remove_red_eye</mat-icon>
+              </button>
+
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+
+          <!-- Row shown when there is no matching data. -->
+          <tr class="mat-row" *matNoDataRow>
+            <td class="mat-cell" colspan="4">
+              No data matching the filter "{{ input.value }}"
+            </td>
+          </tr>
+        </table>
+
+        <mat-paginator
+          [pageSizeOptions]="[5, 10, 25, 100]"
+          aria-label="Select page of Categorys"
+        ></mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

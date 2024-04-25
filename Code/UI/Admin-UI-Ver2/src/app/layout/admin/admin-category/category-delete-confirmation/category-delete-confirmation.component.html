@@ -1,0 +1,23 @@
+<div class="delete-modal">
+  <h1 mat-dialog-title class="fs-2">Xác nhận xoá</h1>
+  <mat-dialog-content>
+    <h3 class="fs-3">Bạn có muốn xoá danh mục {{ data.name }}?</h3>
+  </mat-dialog-content>
+  <div class="container">
+    <mat-dialog-actions class="row">
+      <button mat-flat-button mat-dialog-close class="col fs-6" color="primary">
+        Không
+      </button>
+      <button
+        mat-flat-button
+        mat-dialog-close
+        class="col fs-6"
+        cdkFocusInitial
+        (click)="deleteCategoryById()"
+        color="warn"
+      >
+        Có
+      </button>
+    </mat-dialog-actions>
+  </div>
+</div>

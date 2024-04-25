@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bee46c8e-87e2-4773-9016-96a742c1ea72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/movieticketsbooking.wroCkw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Admin-UI" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Admin-UI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/FinalProject" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/FinalProject" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2eUIKkHKLvreT59xnFRu1nrKfZo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bee46c8e-87e2-4773-9016-96a742c1ea72" name="Changes" comment="" />
+      <created>1711952667932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711952667932</updated>
+      <workItem from="1711952669051" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

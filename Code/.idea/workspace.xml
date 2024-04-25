@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8953087-2573-4b59-bccc-735ff8d2ae23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/admin-category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/admin-category.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/admin-category.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/admin-category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-add-edit/category-add-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-add-edit/category-add-edit.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-add-edit/category-add-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-add-edit/category-add-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-dasboard/category-dasboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-dasboard/category-dasboard.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-dasboard/category-dasboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-dasboard/category-dasboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-delete-confirmation/category-delete-confirmation.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-delete-confirmation/category-delete-confirmation.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-delete-confirmation/category-delete-confirmation.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-category/category-delete-confirmation/category-delete-confirmation.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-home/admin-home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-home/admin-home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-home/admin-home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-home/admin-home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-lazyload/admin.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-lazyload/category-management/category-management-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-lazyload/category-management/category-management.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-lazyload/user-management/user-management-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-lazyload/user-management/user-management.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/admin-user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/admin-user.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/admin-user.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/admin-user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-add-edit/user-add-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-add-edit/user-add-edit.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-add-edit/user-add-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-add-edit/user-add-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-dashboard/user-dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-dashboard/user-dashboard.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-dashboard/user-dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-dashboard/user-dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-delete-confirmation/user-delete-confirmation.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-delete-confirmation/user-delete-confirmation.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-delete-confirmation/user-delete-confirmation.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-delete-confirmation/user-delete-confirmation.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-details/user-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-details/user-details.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-details/user-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/layout/admin/admin-user/user-details/user-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/FinalProject/src/assets/js/index-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/movieticketsbooking.wroCkw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cdbdfa0-c4a2-4c65-b6e3-f752d94f8a84/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ea2235b-4059-44fc-99a9-8a712fb5eb09/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d25aa9ad-0b3f-4229-b0c6-e81706dab492/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Admin-UI/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Admin-UI/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/FinalProject/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/UI/FinalProject/src/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2doXi6z7lVlVWvtqqnZi5HzQ7uh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/NguyenDuyLinh_FinalProject/Code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\NguyenDuyLinh_FinalProject\\UI\\Admin-UI\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NguyenDuyLinh_FinalProject\UI\Admin-UI\src\assets" />
+      <recent name="D:\NguyenDuyLinh_FinalProject\BackEnd\src\main\java\com\example\backend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackEndApplication">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="BackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.aht.internship.demo.MovieBookingWebsiteApplication" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieBookingWebsiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.aht.internship.demo.MovieBookingWebsiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/LinhND_1/AngularFinal/FinalProject/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8953087-2573-4b59-bccc-735ff8d2ae23" name="Changes" comment="" />
+      <created>1710675528563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710675528563</updated>
+      <workItem from="1710675529588" duration="1359000" />
+      <workItem from="1710677099298" duration="15370000" />
+      <workItem from="1710731428695" duration="1529000" />
+      <workItem from="1710740477171" duration="3704000" />
+      <workItem from="1710747776566" duration="1002000" />
+      <workItem from="1710748868670" duration="784000" />
+      <workItem from="1710763686050" duration="2247000" />
+      <workItem from="1710766887210" duration="1412000" />
+      <workItem from="1710769245736" duration="4704000" />
+      <workItem from="1710783689482" duration="692000" />
+      <workItem from="1710793622222" duration="2033000" />
+      <workItem from="1710809095956" duration="2015000" />
+      <workItem from="1710841368453" duration="7942000" />
+      <workItem from="1710916630812" duration="146000" />
+      <workItem from="1710946950562" duration="5091000" />
+      <workItem from="1710957352111" duration="1440000" />
+      <workItem from="1711007325808" duration="5673000" />
+      <workItem from="1711035833650" duration="6699000" />
+      <workItem from="1711049243662" duration="873000" />
+      <workItem from="1711082026945" duration="1874000" />
+      <workItem from="1711099503158" duration="465000" />
+      <workItem from="1711124713314" duration="1455000" />
+      <workItem from="1711172238330" duration="153000" />
+      <workItem from="1711172550212" duration="1681000" />
+      <workItem from="1711194102424" duration="576000" />
+      <workItem from="1711215239853" duration="1193000" />
+      <workItem from="1711277264551" duration="5383000" />
+      <workItem from="1711444599607" duration="1105000" />
+      <workItem from="1711452010064" duration="1512000" />
+      <workItem from="1711462975308" duration="2839000" />
+      <workItem from="1711510243848" duration="580000" />
+      <workItem from="1711510833728" duration="1877000" />
+      <workItem from="1711550729701" duration="1388000" />
+      <workItem from="1711610793928" duration="1467000" />
+      <workItem from="1711635673706" duration="475000" />
+      <workItem from="1711710094476" duration="671000" />
+      <workItem from="1711777284038" duration="364000" />
+      <workItem from="1711859554145" duration="822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/MovieBookingWebsite/src/main/java/net/aht/internship/demo/domain/entity/Booking.java</url>
+          <line>16</line>
+          <properties field="serialVersionUID" class="net.aht.internship.demo.domain.entity.Booking" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/FinalProject/src/app/shared/user/pre-loader/pre-loader.component.ts</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
