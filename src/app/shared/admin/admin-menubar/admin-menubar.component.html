@@ -1,0 +1,27 @@
+<mat-drawer-container autosize>
+
+    <mat-drawer #drawer opened="true" mode="side" position="start">
+
+        <mat-nav-list>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad"><mat-icon>dashboard</mat-icon> Dashboard </button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad/user"><mat-icon>group</mat-icon> Users Management </button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button routerLink="/ad/cate"><mat-icon>category</mat-icon> Categories Management </button>
+            </mat-list-item>
+
+            <mat-list-item>
+                <button mat-button><mat-icon>movie</mat-icon> Movies Management </button>
+            </mat-list-item>
+
+        </mat-nav-list>
+
+    </mat-drawer>
+
+</mat-drawer-container>

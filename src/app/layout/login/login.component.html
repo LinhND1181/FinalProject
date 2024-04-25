@@ -1,0 +1,43 @@
+<div class="bg-primary text-white font-weight-bold" mat-dialog-title>
+    <h1 class="font-weight-bold fs-3" style="font-weight: semi-bold">LOGIN</h1>
+</div>
+<div class="mt-3">
+    <form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
+        <div mat-dialog-content class="content">
+    
+            <div class="row mt-1">
+                <div class="col-6">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Username</mat-label>
+                        <input type="text" id="username" name="username" matInput placeholder="username1"
+                            formControlName="username" [errorStateMatcher]="matcher">
+                        <mat-error
+                            *ngIf="loginForm.get('username')?.hasError('minlength') && !loginForm.get('username')?.hasError('required')">Username
+                            is at least 3 characters</mat-error>
+                        <mat-error *ngIf="loginForm.get('username')?.hasError('required')">Username is required</mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+    
+            <div class="row mt-1">
+    
+                <div class="col-6">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input type="password" id="password" name="password" matInput placeholder="password1" formControlName="password"
+                            [errorStateMatcher]="matcher">
+                        <mat-error
+                            *ngIf="loginForm.get('password')?.hasError('password') && !loginForm.get('password')?.hasError('required')">password
+                            is not valid</mat-error>
+                        <mat-error *ngIf="loginForm.get('password')?.hasError('required')">password is required</mat-error>
+                    </mat-form-field>
+                </div>
+    
+            </div>
+        </div>
+    </form>
+</div>
+<div mat-dialog-actions class="action">
+    <button type="submit" mat-raised-button color="primary" [disabled]="loginForm.invalid"
+        (click)="onFormSubmit()">Login</button>
+</div>

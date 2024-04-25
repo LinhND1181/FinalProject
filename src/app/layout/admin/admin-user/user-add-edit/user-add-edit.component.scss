@@ -1,0 +1,24 @@
+.content {
+    padding-top: 10px;
+}
+
+.row{
+
+    mat-form-field {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    mat-radio-button{
+        font-size: 30px;
+    }
+    
+}
+
+.action{
+
+    padding: 0px 25px 20px;
+
+    button {
+        flex: 1 1 auto;
+    }
+}
